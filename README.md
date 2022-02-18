@@ -3,7 +3,7 @@ Sample IPC file is `test_ipc/test_julia.ipc`
 To reproduce error
 
 ```
-git clone https://github.com/pcjentsch/testing_ipc.git
+git clone https://github.com/pcjentsch/testing_ipc_issue.git
 cd testing_ipc_issue/test_ipc
 cargo run
 ```
