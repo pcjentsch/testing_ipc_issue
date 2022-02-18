@@ -1,10 +1,10 @@
-Sample IPC file is `test_ipc, test_julia.ipc`
+Sample IPC file is `test_ipc/test_julia.ipc`
 
 To reproduce error
 
 ```
 git clone https://github.com/pcjentsch/testing_ipc.git
-cd testing_ipc/test_polars_ipc
+cd testing_ipc/test_ipc
 cargo run
 ```
 
