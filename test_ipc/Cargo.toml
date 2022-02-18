@@ -1,0 +1,10 @@
+[package]
+name = "test_ipc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrow2 = {version = "0.9.1", features = ["io_ipc"]}
+arrow = "9.0.2"
