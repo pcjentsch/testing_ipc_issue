@@ -4,7 +4,7 @@ To reproduce error
 
 ```
 git clone https://github.com/pcjentsch/testing_ipc.git
-cd testing_ipc/test_ipc
+cd testing_ipc_issue/test_ipc
 cargo run
 ```
 
