@@ -11,7 +11,7 @@ use std::sync::Arc;
 
 fn read_batches_arrow(path: &str) -> Vec<record_batch::RecordBatch> {
     let file = File::open(path).expect("file not found");
-    let reader = arrow_ipc::reader::FileReader::try_new(file).unwrap();
+    let reader = arrow_ipc::reader::FileReader::try_new(file, None).unwrap();
     let batches = reader.collect::<arrow_error::Result<Vec<_>>>().unwrap();
     return batches;
 }
